@@ -103,7 +103,7 @@ lighthouse beacon_node \
 --datadir ~/gnosis-lh1 \
 --execution-endpoints http://127.0.0.1:8551 \
 --jwt-secrets /tmp/jwtsecret \
---enr-udp-port <PORT1> } \
+--enr-udp-port <PORT1>  \
 --enr-tcp-port <PORT2>  \
 --discovery-port <PORT3>  \
 --checkpoint-sync-url https://checkpoint.gnosis.gateway.fm \
